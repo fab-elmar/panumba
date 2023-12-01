@@ -31,15 +31,13 @@ def main():
         )
 
 
-      
-        response = openai.Completion.create(
-            engine="curie",  
-            prompt=user_question,
-            max_tokens=150  
-        )
+  
         print(response)
         
         
 
 if __name__ == "__main__":
     main()
+    
+    
+    
